@@ -17,6 +17,6 @@ class PropertyInjectedControllerTest {
         String greeting = controller.sayHello();
         System.out.println(greeting);
 
-        assertEquals("Hello Everyone from the Base Service!", greeting);
+        assertEquals("Friends don't let friends do property injection!", greeting);
     }
 }

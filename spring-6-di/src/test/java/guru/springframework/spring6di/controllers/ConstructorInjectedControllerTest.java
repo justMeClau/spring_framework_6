@@ -17,6 +17,6 @@ class ConstructorInjectedControllerTest {
         String greeting = controller.sayHello();
         System.out.println(greeting);
 
-        assertEquals("Hello Everyone from the PRIMARY Service!", greeting);
+        assertEquals("Hello Everyone from the Base Service!", greeting);
     }
 }
